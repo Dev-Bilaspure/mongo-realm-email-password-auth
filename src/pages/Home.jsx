@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { Link } from "react-router-dom";
 import { UserContext } from "../contexts/UserContext";
 
 const Home = () => {
@@ -9,7 +10,8 @@ const Home = () => {
   return (
     <div>
       This is home page.
-      <button onClick={handleLogoutClick}>Logout</button>
+      <button onClick={handleLogoutClick}>Logout</button><br />
+      <Link to='/requestresetpassword'>Reset Password</Link>
     </div>
   );
 };

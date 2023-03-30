@@ -20,7 +20,7 @@ const Signup = () => {
   }
 
   async function handleSignUpClick() {
-    console.log("login btn clicked");
+    console.log("signup btn clicked");
     if (email === "" || password === "" || !validateEmail(email)) return;
     await emailPasswordSignup(email, password);
     setEmail("");

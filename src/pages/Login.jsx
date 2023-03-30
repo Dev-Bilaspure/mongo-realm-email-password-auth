@@ -47,8 +47,9 @@ const Login = () => {
       <div>
         Don't have an account? <Link to="/signup">SignUp</Link>
         <br />
-        {/* or<br /> */}
-        {/* <Link to='/resetmypassword'>Forgot password</Link> */}
+        or
+        <br />
+        <Link to="/requestresetpassword">Forgot password</Link>
       </div>
     </div>
   );
